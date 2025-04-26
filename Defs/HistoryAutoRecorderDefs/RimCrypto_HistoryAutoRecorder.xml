@@ -1,0 +1,120 @@
+<Defs>
+
+  <HistoryAutoRecorderDef>
+    <defName>TotalMarketCap</defName>
+    <label>Market Total</label>
+    <graphColor>(1, 1, 0, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_CryptoMarketCap</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>RimCoin</defName>
+    <label>RimCoin</label>
+    <graphColor>(1.0, 0.84, 0.0, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_RimCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>ThrumboCoin</defName>
+    <label>TurboThrumbo</label>
+    <graphColor>(0.85, 0.95, 1.0, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_ThrumboCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>BoomalopeCoin</defName>
+    <label>BoomalopeChain</label>
+    <graphColor>(0.85, 0.75, 0.2, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_BoomalopeCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>GlitterCoin</defName>
+    <label>GlitterGold</label>
+    <graphColor>(0.25, 0.41, 0.88, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_GlitterCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>LuciferiumCoin</defName>
+    <label>BitLuciferium</label>
+    <graphColor>(0.6, 0, 0, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_LuciferiumCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>MuffaloCoin</defName>
+    <label>MetaMuffalo</label>
+    <graphColor>(0.6, 0.6, 0.6, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_MuffaloCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>PoplarCoin</defName>
+    <label>PoplarCash</label>
+    <graphColor>(0.4, 0.6, 0.2, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_PoplarCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>RaidersCoin</defName>
+    <label>MiniRaiders</label>
+    <graphColor>(0.8, 0.4, 0.1, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_RaidersCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>RitualCoin</defName>
+    <label>RitualOS</label>
+    <graphColor>(0.7, 0.2, 0.5, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_RitualCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderDef>
+    <defName>FalloutCoin</defName>
+    <label>CyberFallout</label>
+    <graphColor>(0.7, 0.2, 0.5, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>RimCryptoEconomy.HistoryAutoRecorderWorker_FalloutCoin</workerClass>
+    <valueFormat>${0}</valueFormat>
+  </HistoryAutoRecorderDef>
+  
+  <HistoryAutoRecorderGroupDef>
+    <defName>CryptoMarket</defName>
+    <label>Crypto</label>
+    <historyAutoRecorderDefs>
+	  <li>TotalMarketCap</li>
+      <li>RimCoin</li>
+      <li>ThrumboCoin</li>
+      <li>BoomalopeCoin</li>
+      <li>GlitterCoin</li>
+	  <li>RaidersCoin</li>
+	  <li>PoplarCoin</li>
+	  <li>RitualCoin</li>
+	  <li>MuffaloCoin</li>
+	  <li>LuciferiumCoin</li>
+	  <li>FalloutCoin</li>
+    </historyAutoRecorderDefs>
+  </HistoryAutoRecorderGroupDef>
+  
+</Defs>

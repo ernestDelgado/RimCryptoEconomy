@@ -1,0 +1,86 @@
+<Defs>
+	<TraderKindDef>
+	  <defName>RimCrypto_Trader</defName>
+	  <label>RimCrypto Exchange</label>
+	  <commonality>1</commonality>
+	  <stockGenerators>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>Silver</thingDef>
+			<countRange>
+				<min>90000</min>
+				<max>90000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>RimCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>BoomalopeCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>FalloutCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>GlitterCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>LuciferiumCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>MuffaloCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>PoplarCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>RaidersCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>RitualCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+		<li Class="StockGenerator_SingleDef">
+			<thingDef>ThrumboCoin</thingDef>
+			<countRange>
+				<min>10000</min>
+				<max>10000</max>
+			</countRange>
+		</li>
+	  </stockGenerators>
+	</TraderKindDef>
+</Defs>

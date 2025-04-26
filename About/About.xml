@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RimCryptoEconomy</name>
+  <author>yaboie88</author>
+  <packageId>yaboie88.rimcryptoeconomy</packageId>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <description>
+    Got extra electricity to spare? Turn your power into cash. With Rim Crypto Economy, you can mine coins and sell them on the market.
+Use the comms console to open the Crypto Exchange to buy and sell coins. Coins follow a realistic crypto economy curve, 
+where coins go up and down together, not totally random prices. BEWARE, some coins can crash out of existence, 
+leaving you with a loss in your investment. Or they can BOOM and leave you the wealthiest faction in RimWorld. Happy Trading!
+	
+How to Use
+    - Servers are found under MISC and after Electricity has been researched.
+    - Select a pawn and then click the server to start the mining process.
+    - Comms Console gives access to the Crypto Exchange.
+    - Buy and Sell your coins. No Multipliers. Coin prices are RAW
+
+Servers Produce Heat! so makes sure to Vent or A/C the room.
+  </description>
+</ModMetaData>

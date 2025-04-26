@@ -1,0 +1,83 @@
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+	<defName>CryptoServer</defName>
+	<label>crypto server</label>
+	<description>A powerful server used for mining cryptocurrencies. It consumes a lot of power and generates heat when active.</description>
+	<thingClass>RimCryptoEconomy.Building_CryptoServer</thingClass>
+
+	<!-- Graphics and size -->
+	<graphicData>
+		<texPath>Servers/CryptoServer</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(1.5 , 1.25)</drawSize> 
+		<drawRotated>false</drawRotated>
+	</graphicData>
+
+	<castEdgeShadows>true</castEdgeShadows>
+	<staticSunShadowHeight>0.20</staticSunShadowHeight>
+	<constructEffect>ConstructMetal</constructEffect>
+
+	<!-- Building cost -->
+	<costList>
+		<Steel>100</Steel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+		<ComponentSpacer>5</ComponentSpacer>
+		<Gold>10</Gold>
+	</costList>
+
+	<altitudeLayer>Building</altitudeLayer>
+	<useHitPoints>True</useHitPoints>
+
+	<!-- Stats -->
+	<statBases>
+		<WorkToBuild>5000</WorkToBuild>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+	</statBases>
+
+	<size>(1,1)</size>
+	<designationCategory>Misc</designationCategory>
+	<uiOrder>2310</uiOrder>
+	<passability>PassThroughOnly</passability>
+	<pathCost>50</pathCost>
+	<hasInteractionCell>True</hasInteractionCell>
+	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+	<surfaceType>Item</surfaceType>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+
+	<!-- Working properties and interaction -->
+	<building>
+		<heatPerTickWhileWorking>0.25</heatPerTickWhileWorking> <!-- Heat generated while active -->
+	</building>
+	<tickerType>Normal</tickerType>
+
+	<placeWorkers>
+        <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+	</placeWorkers>
+	<!-- Power properties -->
+	<comps>
+	<li Class="CompProperties_Power">
+	  <compClass>CompPowerTrader</compClass>
+	  <basePowerConsumption>1000</basePowerConsumption> <!-- Power consumption while running -->
+	  <shortCircuitInRain>true</shortCircuitInRain>
+	</li>
+	<!-- Glow effect when the server is on -->
+	<li Class="CompProperties_Glower">
+	  <glowRadius>5.0</glowRadius>
+	  <glowColor>(100, 0, 0, 255)</glowColor> <!-- Red glow -->
+	</li>
+	<li Class="CompProperties_Flickable"/>
+	<!-- Heat generation -->
+	<li Class="CompProperties_HeatPusher">
+	  <compClass>CompHeatPusherPowered</compClass>
+	  <heatPerSecond>8</heatPerSecond> <!-- Heat generated per second -->
+	</li>
+	<li Class="CompProperties_Breakdownable"/>
+	</comps>
+
+	<!-- Research and hotkey -->
+	<researchPrerequisites>
+	  <li>Electricity</li>
+	</researchPrerequisites>
+	</ThingDef>
+</Defs>

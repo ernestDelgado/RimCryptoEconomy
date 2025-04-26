@@ -1,0 +1,7 @@
+<Defs>
+  <ThingCategoryDef>
+    <defName>Crypto</defName>
+    <label>CryptoCurrencies</label>
+    <parent>ResourcesRaw</parent>
+  </ThingCategoryDef>
+</Defs>

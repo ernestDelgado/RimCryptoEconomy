@@ -1,0 +1,122 @@
+<Defs>
+  <ThingDef Name="CryptoCoinBase" Abstract="True" ParentName="ResourceBase" >
+    <thingClass>Verse.ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Crypto</li>
+    </thingCategories>
+	<graphicData>
+		<drawSize>(0.8,0.8)</drawSize>
+	</graphicData>
+    <stackLimit>999</stackLimit>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+      <Mass>0.0001</Mass>
+    </statBases>
+    <tradeability>All</tradeability>
+    <alwaysHaulable>true</alwaysHaulable>
+    <pathCost>0</pathCost>
+    <rotatable>false</rotatable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+  </ThingDef>
+
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>RimCoin</defName>
+    <label>RimCoin</label>
+    <description>The first digital currency ever established in the Rim. Its legacy laid the foundation for everything that followed. Many coins strive to match its influence on the blockchain.</description>
+    <graphicData>
+      <texPath>UI/RimCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>ThrumboCoin</defName>
+    <label>TurboThrumbo</label>
+    <description>A rare and elusive coin, known to surge into the market like a thrumbo in the wild — sudden, majestic, and gone before you can catch it.</description>
+    <graphicData>
+      <texPath>UI/ThrumboCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>BoomalopeCoin</defName>
+    <label>BoomalopeChain</label>
+    <description>Unpredictable and resourceful, BoomalopeCoin can explode in value out of nowhere — sometimes a blessing, sometimes a mess.</description>
+    <graphicData>
+      <texPath>UI/BoomalopeCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>GlitterCoin</defName>
+    <label>GlitterGold</label>
+    <description>Backed by prestige and perfection, GlitterCoin radiates universal value. Trusted across civilizations, its reputation alone is enough to move markets.</description>
+    <graphicData>
+      <texPath>UI/GlitterCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>LuciferiumCoin</defName>
+    <label>BitLuciferium</label>
+    <description>Blazing hot and dangerously addictive, LuciferiumCoin is the kind of asset that’ll take you out of this world — for better or worse.</description>
+    <graphicData>
+      <texPath>UI/LuciferiumCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>MuffaloCoin</defName>
+    <label>MetaMuffalo</label>
+    <description>A comforting, fluffy investment — coins are said to get lost in the fur and multiply over time. Slow-moving, but surprisingly reliable.</description>
+    <graphicData>
+      <texPath>UI/MuffaloCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>PoplarCoin</defName>
+    <label>PoplarCash</label>
+    <description>Grows tall, fast, and steady — PoplarCoin is rooted in strength and rises like a tree. Solid as wood, and just as dependable.</description>
+    <graphicData>
+      <texPath>UI/PoplarCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>RaidersCoin</defName>
+    <label>MiniRaiders</label>
+    <description>Born from the chaos of the Rim, RaidersCoin represents the spoils of constant conflict. In a world where raids never end, there’s always profit to be made.</description>
+    <graphicData>
+      <texPath>UI/RaidersCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>RitualCoin</defName>
+    <label>RitualOS</label>
+    <description>Summoned through ancient rites and shimmering offerings, RitualCoin channels wealth into existence. Call upon the gods — and they just might answer.</description>
+    <graphicData>
+      <texPath>UI/RitualCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="CryptoCoinBase">
+    <defName>FalloutCoin</defName>
+    <label>CyberFallout</label>
+    <description>A remnant of a collapsed economy, FalloutCoin lingers like dust in the wind. Fragile, volatile, and somehow... still traded.</description>
+    <graphicData>
+      <texPath>UI/FalloutCoin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+</Defs>
