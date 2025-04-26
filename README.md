@@ -23,6 +23,3 @@ Servers Produce Heat! so makes sure to Vent or A/C the room.
 
 The Code will be available on Github soon, Anyone is free to build off it.
 
-
-Support me at 
-paypal.me/yaboie88
