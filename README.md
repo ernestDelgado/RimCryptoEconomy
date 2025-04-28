@@ -21,5 +21,11 @@ Servers Produce Heat! so makes sure to Vent or A/C the room.
 
 **This idea was originally thought of by OniJechto. However, this mod is re-done from the ground up. As a small time crypto investor myself, I used my knowledge of the market to create the most realistic simulation i could. Thanks for Subscribing =) Happy Tradings
 
-The Code will be available on Github soon, Anyone is free to build off it.
+📢 Support My Work!
+If you enjoy RimCryptoEconomy and want to help it grow, consider supporting me or submitting suggestions/bugs!
 
+💖 **Support me here:**
+👉 PayPal: paypal.me/yaboie88
+
+🛠️ Report bugs & contribute:
+github.com/ernestDelgado/RimCryptoEconomy
